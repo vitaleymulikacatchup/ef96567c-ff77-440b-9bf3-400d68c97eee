@@ -11,7 +11,7 @@ import FooterLogo from '@/components/footer/FooterLogo';
 export default function Home() {
   return (
     <>
-      <NavbarStyleMinimal logoSrc="/images/logo.svg" logoWidth={100} logoHeight={32} leftButtonText="Learn Pog" onLeftButtonClick={() => {}} />
+      <NavbarStyleMinimal logoSrc="/images/logo.svg" logoWidth={100} logoHeight={32} buttonText="Learn Pog" onButtonClick={() => {}} />
       <SplitHero title="Welcome to PogCoin" subtitle="Join the fun and excitement of our community!" primaryButtonText="Get Started" secondaryButtonText="Learn More" onPrimaryButtonClick={() => {}} onSecondaryButtonClick={() => {}} />
       <CtaAbout title="About PogCoin" descriptions={["PogCoin is your gateway to a playful cryptocurrency experience.", "We are dedicated to building a friendly and community-driven platform."]} />
       <HowToBuy3D title="How to Buy PogCoin" steps={{ title: "Buy steps", description: "Get started in three easy steps!", image: "/images/placeholder1.avif", position: "left", isCenter: true }} />
